@@ -35,7 +35,7 @@ Amazon EMR
     5. Run Setup Commands:
     - Execute the following commands on the EC2 instance:
       ```bash
-      aws s3api get-object --bucket winequalityapplication --key init.sh /home/hadoop/init.sh
+      aws s3api get-object --bucket winequalityapp26 --key init.sh /home/hadoop/init.sh
       export ACCESSKey=access-key
       export SECRETKey=secret-key
       sh init.sh
